@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Magazasi</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>Kitab Mağazası</header>
+    <nav>
+        <ul>
+        <li><a href="">Ana Sehife</a></li>
+        <li><a href="">Haqqimizda</a></li>
+        <li><a href="">Kateqoriyalar</a></li>
+        <li><a class="active" href="">Ayin Kitabi</a></li>
+        <li><a href="">Elaqe</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <section class="bookOfMonth">
+            <div id="bookOfMonthImage"><img src="book1.jpg"></div>
+            <div class="bookNamePrice">
+                <h3 id="bookName">The Big Bang Theory and philosophy</h3>
+                <p id="bookPrice">12.00AZN<span id="beforeDiscount" style="color:red;">  <del>15.00AZN</del></span></p>
+            </div>
+            <div id="bookDescription"><p>A lighthearted meditation on the philosophical quandaries of the hit television show The Big Bang Theory
+                Ever wonder what Aristotle might say about the life Sheldon Cooper leads? Why Thomas Hobbes would applaud the 
+                roommate agreement? Who Immanuel Kant would treat with "haughty derision" for weaving "un-unravelable webs?" 
+                And—most importantly—whether Wil Wheaton is truly evil? Of course you have. Bazinga!
+                
+                This book mines the deep thinking of some of history's most potent philosophical minds to explore your most 
+                pressing questions about The Big Bang Theory and its nerdy genius characters. You might find other philosophy 
+                books on science and cosmology, but only this one refers to Darth Vader Force-chokes, cloning Leonard Nimoy, 
+                and oompa-loompa-like engineers. Fo-shizzle.
+                
+                Gives you irresistibly geek-worthy insights on your favorite Big Bang Theory characters, story lines, and ideas
+                Examines important themes involving ethics and virtue, science, semiotics, religion, and the human condition
+                Brings the thinking of some of the world's greatest philosophers to bear on The Big Bang Theory, from Aristotle 
+                and Plato to Nietzsche, Wittgenstein, Simone de Beauvoir, and more Essential reading for every Big Bang Theory fan, 
+                this book explores whether comic-book-wielding geeks can lead the good life, and whether they can know enough 
+                science to "tear the mask off nature and stare at the face of God."</p>
+            </div>
+            <button class="btns" id="addCard">Sebete elave et</button>
+        </section>
+        <div id="specifications">
+            <h3>Xususiyyetler</h3>
+            <table>
+                <tr>
+                    <td>Dil:</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>Janr:</td>
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td>Muellif:</td>
+                    <td>William Irvin</td>
+                </tr>
+                <tr>
+                    <td>Nesriyyat:</td>
+                    <td>Amazon</td>
+                </tr>
+            </table>
+
+        </div>
+        <section class="bookComments">
+            <div><img src="book1.jpg"></div>
+            <div class="bookForms">
+                <h5>Serh yaz</h5>
+                <br>
+                <br>
+                <form action="">
+                <label for="fullName">Tam adiniz:</label>
+                <input type="text" id="fullName" name="fullName">
+                <br>
+                <br>
+                <label for="readBook">Bu kitabi oxumusunuzmu:</label>
+                <input type="checkbox" id="readBook" name="readBook">
+                <br>
+                <br>
+                <label for="readDate">Ne vaxt oxumusunuz?:</label>
+                <input type="date" id="readDate" name="readDate">
+                <br>
+                <br>
+                <label for="readLang">Hansi dilde oxumusunuz:</label>
+                <select id="readLang" name="readLang">
+                    <option value="Azerbaycan">Azerbaycan</option>
+                    <option value="Ingilis">Ingilis</option>
+                    <option value="Rus">Rus</option>
+                    <option value="Alman">Alman</option>
+                </select>
+                <br>
+                <br>
+                <label for="evaluateRange">Qiymətləndirmə:</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="evaluateRange">
+                <br>
+                <br>
+                <label for="yourComment">Serhiniz:</label>
+                <input type="text" id="yourComment" name="yourComment">
+                </form>
+                <br>
+                <br>
+                <button class="btns">Gonder</button>
+            </div>
+            <div><img src="book1.jpg"></div>
+        </section>
+    </div>
+    <footer>2020 &copy; Butun huquqlar qorunur.</footer>
+</body>
+</html>

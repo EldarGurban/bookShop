@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Syne Mono', monospace;
+}
+
+header{
+    background-color: aliceblue;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    overflow: hidden;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+  }
+
+  li :nth-child(1){
+      border-left: 1px solid white;
+  }
+  
+  a.active{
+  
+  background-color: #344;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+#container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#bookOfMonthImage{
+    float: left;
+    overflow: hidden;
+}
+
+.bookNamePrice{
+  width: 745px;
+  margin-left: 31%;
+  text-align: right;
+}
+
+#bookDescription{
+    height: 200px;
+    width: 600px;
+    overflow: auto;
+    float: right;
+    position: relative;
+    display: block;
+    margin-top: 3%;
+}
+
+#addCard{
+    margin-left: 55%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+table, td{
+    border-bottom: 1px solid black;
+}
+#specifications h3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.bookComments{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 215, 215);
+    opacity: 0.6;
+}
+
+.bookComments:hover{
+    background-color: transparent;
+}
+
+.bookForms{
+    text-align: center;
+}
+.btns{
+    width: 150px;
+    height: 30px;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+.btns:hover{
+    cursor: pointer;
+    background-color: turquoise;
+}
+
+footer{
+    height: 50px;
+    background-color: teal;
+    text-align: center;
+    padding: 15px;
+}
